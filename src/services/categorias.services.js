@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://645a7bf565bd868e931c8456.mockapi.io/'
+    baseURL: 'https://my-json-server.typicode.com/ZASKE99/challenge4-aluraflix'
 });
 
 export const listarCategorias = async (url, setDatos) => {
